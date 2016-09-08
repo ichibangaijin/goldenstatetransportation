@@ -6,12 +6,14 @@ html{
 }
 
 
+
 body{
     color:white;
+   font-family: 'Libre Baskerville', serif;
 }
 
 .container{
-    background:silver;
+    background:black;
 }
 
 .jumbotron{
@@ -42,10 +44,11 @@ body{
     position:relative;
     top:250px;
     color:white;
-    font-family: cursive;
+   
     text-shadow: 4px 2px 15px #115bb2;
     font-size:20px;
-    border:10px solid #34331f;
+    border:2px solid #34331f;
+    text-decoration: none;
     
     
     
@@ -63,7 +66,7 @@ body{
     display: inline;
     float: left;
     padding: 15px;
-    font-family: cursive;
+    
     text-decoration: none;
     font-size:20px;
     text-shadow: 2px 2px 2px rgba(7, 30, 83, 0.91);
@@ -71,7 +74,7 @@ body{
 
 @media(max-width: 500px){
     .logo{
-        font-size:20px;
+        width:100px;
     }
    
 }
