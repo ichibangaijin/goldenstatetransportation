@@ -56,6 +56,14 @@ body{
     
 }
 
+.thumbnails{
+    width:100%;
+    margin-top:40px;
+    border-radius:10px;
+    margin-bottom:40px;
+    
+}
+
 
 
 .navbar{
@@ -87,6 +95,37 @@ body{
 
 .grow:hover{
     transform: scale(1.1);
+}
+
+.imgHover p{
+    opacity: 0;
+    position:absolute;
+    bottom:40px;
+    color:white;
+    font-size:30px;
+    text-shadow: 2px 2px 12px black;
+}
+
+.imgHover p:hover{
+    opacity: ;
+}
+
+
+
+
+.imgHover {
+    opacity: .7;
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+    
+    
+}
+
+.imgHover:hover{
+   opacity:1.1;
+    
+    
 }
 
 
