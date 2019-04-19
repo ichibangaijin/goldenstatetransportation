@@ -62,9 +62,9 @@ body{
 
 .thumbnails{
     width:100%;
-    margin-top:40px;
+    margin-top:20px;
     border-radius:10px;
-    margin-bottom:40px;
+    margin-bottom:0px;
     
 }
 
@@ -90,8 +90,36 @@ body{
 }
 
 @media(max-width: 500px){
+    .navbar{
+        display:block;
+        text-align: center;
+        margin:0px;
+        padding-top:10px;
+        height:110px;
+        
+    }
     .logo{
-        width:100px;
+        width:100%;
+        float:none;
+        margin:0px;
+        padding:0px;
+    }
+    .navbar ul{
+        display:block;
+        width:100%;
+        margin:0px;
+        padding:0px;
+        float:none;
+    }
+    .navbar li{
+   display:block;
+   width:100%;
+   padding:0px;
+   margin:0px;
+    }
+
+    .navbar a{
+        padding:0px;
     }
    
 }
